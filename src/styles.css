@@ -42,6 +42,7 @@
   margin-right: -13px;
   text-align: center;
 }
+
 #today-temperature {
   font-family: Segoe UI;
   font-weight: 400;
@@ -50,6 +51,7 @@
   margin-left: 15px;
   padding-left: 0px;
 }
+
 #today-degree {
   font-size: 18px;
   padding-top: 12px;
@@ -57,22 +59,27 @@
   margin-left: -15px;
   padding-right: 0px;
 }
+
 #degree-fahrenheit {
   color: #000;
   text-decoration: none;
 }
+
 #degree-celcius {
   color: #000;
   text-decoration: none;
 }
+
 #github-link {
   margin-top: 2px;
   font-size: 13px;
 }
+
 .main-app {
   max-width: 600px;
   min-width: 550px;
   margin-top: 100px;
+  padding: 0 10px;
   border: 2px solid rgb(148, 148, 148, 0.3);
   border-radius: 5px;
   box-shadow: 2px 2px 10px rgb(202, 202, 202, 0.7);
@@ -81,6 +88,7 @@
 .search-bar {
   padding: 12px 0px;
 }
+
 .search-bar form {
   display: inline;
   background: #fff;
@@ -112,6 +120,7 @@
   font-size: 13px;
   font-weight: 500;
 }
+
 .other-info-value {
   font-size: 12px;
 }
@@ -119,6 +128,7 @@
 .weather-image {
   width: 55px;
 }
+
 .day-1,
 .day-2,
 .day-3,
