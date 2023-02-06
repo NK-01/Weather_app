@@ -1,0 +1,145 @@
+* {
+  font-family: Poppins;
+}
+
+#city-name {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#current-location {
+  background: green;
+  color: #fff;
+  border-radius: 15px;
+  border: 1px solid green;
+  margin-left: 15px;
+  padding: 2px 10px;
+}
+
+#search-city {
+  border: none;
+  outline: none;
+  line-height: 21px;
+}
+
+#today-weather-icon {
+  height: 80px;
+  width: 80px;
+}
+
+#today-weather-condition {
+  font-size: 15px;
+}
+
+#aqi {
+  font-size: 11px;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 1.5px;
+  margin-left: -12px;
+  margin-right: -13px;
+  text-align: center;
+}
+#today-temperature {
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-size: 59px;
+  margin-top: -4px;
+  margin-left: 15px;
+  padding-left: 0px;
+}
+#today-degree {
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 30px;
+  margin-left: -15px;
+  padding-right: 0px;
+}
+#degree-fahrenheit {
+  color: #000;
+  text-decoration: none;
+}
+#degree-celcius {
+  color: #000;
+  text-decoration: none;
+}
+.main-app {
+  max-width: 600px;
+  min-width: 550px;
+  margin-top: 100px;
+  border: 2px solid rgb(148, 148, 148, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(202, 202, 202, 0.7);
+}
+
+.search-bar {
+  padding: 12px 0px;
+}
+.search-bar form {
+  display: inline;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 260px;
+  line-height: 26px;
+  padding: 2px 3px;
+}
+
+.data-time {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.search-icon {
+  color: rgb(29, 88, 214);
+  padding-left: 7px;
+  padding-right: 2px;
+}
+
+.other-info {
+  padding-top: 32px;
+  line-height: 19px;
+  padding-left: 25px;
+}
+
+.other-info-heading {
+  font-size: 13px;
+  font-weight: 500;
+}
+.other-info-value {
+  font-size: 12px;
+}
+
+.weather-image {
+  width: 55px;
+}
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
+  text-align: center;
+}
+
+.day-name {
+  padding-top: 15px;
+}
+
+.day-temp {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.focus {
+  opacity: 1;
+}
+
+.unfocus {
+  opacity: 0.4;
+}
+
+.unfocus:hover {
+  opacity: 0.7;
+}
