@@ -25,168 +25,153 @@
   </head>
 
   <body>
-    <div class="container main-app">
-      <div class="search-bar">
-        <form id="search-form">
-          <i class="fa-solid fa-magnifying-glass search-icon"></i>
-          <input
-            type="search"
-            placeholder="Enter city name"
-            id="search-city"
-            autofocus="on"
-            autocomplete="off"
-          />
-        </form>
-        <button id="current-location">
-          Current Location
-        </button>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <div id="city-name">
-            Chandigarh
-          </div>
-          <div class="data-time">
-            <span id="day">Monday</span>
-            <span id="time">, 4:04 </span>
-          </div>
-          <div id="today-weather-condition" class="data-time">
-            Partly cloudy
-          </div>
+    <div class="container">
+      <div class="main-app">
+        <div class="search-bar">
+          <form id="search-form">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="search"
+              placeholder="Enter city name"
+              id="search-city"
+              autofocus="on"
+              autocomplete="off"
+            />
+          </form>
+          <button id="current-location">Current Location</button>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div id="city-name">Chandigarh</div>
+            <div class="data-time">
+              <span id="day">Monday</span>
+              <span id="time">, 4:04 </span>
+            </div>
+            <div id="today-weather-condition" class="data-time">
+              Partly cloudy
+            </div>
 
-          <div class="row">
-            <div class="col-3">
-              <img
-                id="today-weather-icon"
-                src="image/partly_cloudy.png"
-                alt="today's-weather-icon"
-              />
+            <div class="row">
+              <div class="col-3">
+                <img
+                  id="today-weather-icon"
+                  src="image/partly_cloudy.png"
+                  alt="today's-weather-icon"
+                />
+              </div>
+              <div class="col-2" id="today-temperature">
+                17
+                <!-- <div id="aqi">AQI 150 </div> -->
+              </div>
+              <div class="col-7" id="today-degree">
+                <a href="#" id="degree-celcius" class="focus">°C</a
+                ><span>|</span
+                ><a href="#" id="degree-fahrenheit" class="unfocus">°F</a>
+              </div>
             </div>
-            <div class="col-2" id="today-temperature">
-              17
-              <!-- <div id="aqi">AQI 150 </div> -->
+          </div>
+          <div class="col-6 other-info">
+            <div class="row">
+              <div class="col-6">
+                <span class="other-info-heading">Sunrise</span> <br /><span
+                  class="other-info-value"
+                  >07:17</span
+                >
+              </div>
+              <div class="col-6">
+                <span class="other-info-heading">Sunset</span> <br /><span
+                  class="other-info-value"
+                  >17:26</span
+                >
+              </div>
             </div>
-            <div class="col-7" id="today-degree">
-              <a href="#" id="degree-celcius" class="focus">°C</a><span>|</span
-              ><a href="#" id="degree-fahrenheit" class="unfocus">°F</a>
+            <div class="row">
+              <div class="col-6">
+                <span class="other-info-heading">Humidity</span><br /><span
+                  class="other-info-value"
+                  >80%</span
+                >
+              </div>
+              <div class="col-6">
+                <span class="other-info-heading">Pressure</span> <br />
+                <span class="other-info-value">1013mbar</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <span class="other-info-heading">Wind speed</span> <br />
+                <span class="other-info-value">8.5km/h</span>
+              </div>
+              <div class="col-6">
+                <span class="other-info-heading">UV index </span><br />
+                <span class="other-info-value">0</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-6 other-info">
-          <div class="row">
-            <div class="col-6">
-              <span class="other-info-heading">Sunrise</span> <br /><span
-                class="other-info-value"
-                >07:17</span
-              >
-            </div>
-            <div class="col-6">
-              <span class="other-info-heading">Sunset</span> <br /><span
-                class="other-info-value"
-                >17:26</span
-              >
+        <div class="row">
+          <div class="col">
+            <div class="day-1">
+              <div class="day-name">Mon</div>
+              <img
+                src="image/sunny.png"
+                alt="day-1-weather-condition"
+                class="weather-image"
+              />
+              <div class="day-temp">11°C / 51°F</div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6">
-              <span class="other-info-heading">Humidity</span><br /><span
-                class="other-info-value"
-                >80%</span
-              >
-            </div>
-            <div class="col-6">
-              <span class="other-info-heading">Pressure</span> <br />
-              <span class="other-info-value">1013mbar</span>
+          <div class="col">
+            <div class="day-2">
+              <div class="day-name">Tue</div>
+              <img
+                src="image/partly_cloudy.png"
+                alt="day-2-weather-condition"
+                class="weather-image"
+              />
+              <div class="day-temp">9°C / 48°F</div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6">
-              <span class="other-info-heading">Wind speed</span> <br />
-              <span class="other-info-value">8.5km/h</span>
+          <div class="col">
+            <div class="day-3">
+              <div class="day-name">Wed</div>
+              <img
+                src="image/partly_cloudy.png"
+                alt="day-3-weather-condition"
+                class="weather-image"
+              />
+              <div class="day-temp">10°C / 50°F</div>
             </div>
-            <div class="col-6">
-              <span class="other-info-heading">UV index </span><br />
-              <span class="other-info-value">0</span>
+          </div>
+          <div class="col">
+            <div class="day-4">
+              <div class="day-name">Thu</div>
+              <img
+                src="image/partly_cloudy.png"
+                alt="day-4-weather-condition"
+                class="weather-image"
+              />
+              <div class="day-temp">8°C / 46°F</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="day-5">
+              <div class="day-name">Fri</div>
+              <img
+                src="image/partly_cloudy.png"
+                alt="day-5-weather-condition"
+                class="weather-image"
+              />
+              <div class="day-temp">12°C / 51°F</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="day-1">
-            <div class="day-name">
-              Mon
-            </div>
-            <img
-              src="image/sunny.png"
-              alt="day-1-weather-condition"
-              class="weather-image"
-            />
-            <div class="day-temp">
-              11°C / 51°F
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="day-2">
-            <div class="day-name">
-              Tue
-            </div>
-            <img
-              src="image/partly_cloudy.png"
-              alt="day-2-weather-condition"
-              class="weather-image"
-            />
-            <div class="day-temp">
-              9°C / 48°F
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="day-3">
-            <div class="day-name">
-              Wed
-            </div>
-            <img
-              src="image/partly_cloudy.png"
-              alt="day-3-weather-condition"
-              class="weather-image"
-            />
-            <div class="day-temp">
-              10°C / 50°F
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="day-4">
-            <div class="day-name">
-              Thu
-            </div>
-            <img
-              src="image/partly_cloudy.png"
-              alt="day-4-weather-condition"
-              class="weather-image"
-            />
-            <div class="day-temp">
-              8°C / 46°F
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="day-5">
-            <div class="day-name">
-              Fri
-            </div>
-            <img
-              src="image/partly_cloudy.png"
-              alt="day-5-weather-condition"
-              class="weather-image"
-            />
-            <div class="day-temp">
-              12°C / 51°F
-            </div>
-          </div>
-        </div>
+      <div id="github-link">
+        <a href="https://github.com/NK-01/Weather_app" target="_blank"
+          >Open-source code</a
+        >
+        by Nidhi Kumari
       </div>
     </div>
     <script src="src/index.js"></script>

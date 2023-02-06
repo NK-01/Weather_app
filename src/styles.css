@@ -65,6 +65,10 @@
   color: #000;
   text-decoration: none;
 }
+#github-link {
+  margin-top: 2px;
+  font-size: 13px;
+}
 .main-app {
   max-width: 600px;
   min-width: 550px;
