@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Weather App</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -59,14 +59,13 @@
                   alt="today's-weather-icon"
                 />
               </div>
-              <div class="col-2" id="today-temperature">
-                17
-                <!-- <div id="aqi">AQI 150 </div> -->
-              </div>
-              <div class="col-7" id="today-degree">
-                <a href="#" id="degree-celcius" class="focus">°C</a
-                ><span>|</span
-                ><a href="#" id="degree-fahrenheit" class="unfocus">°F</a>
+              <div class="col-9">
+                <span id="today-temperature">17</span>
+                <span class="temperature-units">
+                  <a href="#" id="degree-celcius" class="focus">°C</a
+                  ><span>|</span
+                  ><a href="#" id="degree-fahrenheit" class="unfocus">°F</a>
+                </span>
               </div>
             </div>
           </div>
@@ -167,7 +166,7 @@
           </div>
         </div>
       </div>
-      <div id="github-link">
+      <div class="github-link">
         <a href="https://github.com/NK-01/Weather_app" target="_blank"
           >Open-source code</a
         >
